@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent-navigation {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+
+.child-navigation {
+  position: absolute;
+}
+
+.child1 {
+  width: 4%;
+  left: 100px;
+}
+
+.child2 {
+  top: 10px;
+  left: 750px;
+}
+.child2 ul {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 23px;
+  list-style: none;
+}
+
+.child2 ul li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.child3 {
+  top: 1rem;
+  left: 105rem;
+  width: 30%;
+}
+
+.nav-button {
+  width: 20%;
+  height: 3rem;
+  border-style: none;
+  color: white;
+  background-color: red;
+  font-weight: 100;
+  font-size: 23px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.main-section {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+}
+
+.main-header {
+  position: absolute;
+}
+
+.header1 {
+  top: 5rem;
+  left: 18rem;
+}
+
+.header-span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 90px;
+}
+
+.imagesrc {
+  top: 3rem;
+  left: 65rem;
+}
+
+.image {
+  width: 80%;
+  border-style: none;
+}
+
+.secondary-header {
+  top: 25rem;
+  left: 19rem;
+}
+
+.secondary-header2 {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.btn-shop {
+  top: 30rem;
+  left: 19rem;
+}
+
+.shop {
+  width: 8rem;
+  height: 3rem;
+  padding: 1rem;
+  background-color: red;
+  border-style: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.category {
+  margin: 1rem;
+  width: 8rem;
+  height: 3rem;
+  border-style: none;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 20px;
+}
+
+.avai {
+  top: 37rem;
+  left: 19rem;
+}
+
+.avai p {
+  color: grey;
+  font-size: 30px;
+}
+
+.avai ul li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
