@@ -4,10 +4,6 @@
   flex-direction: row; /* main axis:row*/
   justify-content: space-between; /* according to row*/
   align-items: stretch; /* column*/
-  /* display: flex;
-  height: 72px;
-  align-items: center
-  justify-content: space-between; */
 }
 
 .navigation ul {
